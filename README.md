@@ -6,8 +6,6 @@
   <img align="center" src="./github/atributos.png">
 </div>
 
-<br/>
-
 <h4>Os atributos são usados para personalizar as tags, modificando sua estrutura ou funcionalidade. Portanto, os atributos são utilizados para atribuir uma classe ou id a um elemento. Esses são os principais, porém existe vários.</h4> <br/>
 
 **class=”…“** – Atribui uma classe ao elemento (uma classe pode ser utilizada para um ou mais elementos); <br/><br/>
@@ -21,13 +19,15 @@
 **width=”…”** – Define uma largura para o elemento;<br/><br/>
 **height=”…”** – Define uma altura para o elemento.<br/> <br/>
 
-<h1 style="color: aqua;">Tags</h1>
+<div align="center">
+  <img align="center" src="./github/tags.png">
+</div>
+
+<br/>
 
 <div align="center">
   <img align="center" src="./github/coment.png">
 </div>
-
-<h2 style="color: rgb(240, 58, 164)">Comentário</h2> <br/>
 
 Obs: Ele não será exibido em tela.
 
@@ -35,7 +35,9 @@ Obs: Ele não será exibido em tela.
 <!-- Escreva seu comentário -->
 ```
 
-<h2 style="color: rgb(240, 58, 164)">DOCTYPE html</h2> <br/>
+<div align="center">
+  <img align="center" src="./github/doctype.png">
+</div>
 
 Utilizada para iniciar e indicar a versão do Html. <br/>
 Por exemplo, Html:5
@@ -53,7 +55,9 @@ Por exemplo, Html:5
 </html>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Html</h2> <br/>
+<div align="center">
+  <img align="center" src="./github/html.png">
+</div>
 
 Todo conteúdo do código Html.
 
@@ -64,7 +68,9 @@ Todo conteúdo do código Html.
 </html>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Head</h2> <br/>
+<div align="center">
+  <img align="center" src="./github/head.png">
+</div>
 
 A tag head representa uma coleção de metadados para o documento onde não são exibidos no navegador. Metadados são, dados sobre os dados. E é utilizada para inserir informações do cabeçalho do documento, como título, links para css, links para favicons, links para fontes e outros metadados, como: Quem o escreveu, palavras-chave importantes que descrevem o documento etc.
 
@@ -83,7 +89,11 @@ A tag head representa uma coleção de metadados para o documento onde não são
   </head>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Title</h2> <br/>
+<div align="center">
+  <img align="center" src="./github/title.png">
+</div>
+
+<br/>
 
 Utilizada para inserir o título da página web (Guia).
 
@@ -91,7 +101,11 @@ Utilizada para inserir o título da página web (Guia).
 <title>Escreva o Título</title>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Meta</h2> <br/>
+<div align="center">
+  <img align="center" src="./github/meta.png">
+</div>
+
+<br/>
 
 Os metadados contendo informações do documento.
 
@@ -100,7 +114,11 @@ Os metadados contendo informações do documento.
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Link</h2> <br/>
+<div align="center">
+  <img align="center" src="./github/link.png">
+</div>
+
+<br/>
 
 Inclusão de outros documentos.
 
@@ -114,7 +132,11 @@ Inclusão de outros documentos.
 <link rel="icon" type="image/png" sizes="16x16" href="./images/icon.png" />
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Body</h2> <br/>
+<div align="center">
+  <img align="center" src="./github/body.png">
+</div>
+
+<br/>
 
 Todo corpo do documento.
 
