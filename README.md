@@ -61,6 +61,8 @@ Por exemplo, Html:5
   <img align="center" src="./github/html.png">
 </div>
 
+<br/>
+
 Todo conteúdo do código Html.
 
 ```bash
@@ -70,9 +72,11 @@ Todo conteúdo do código Html.
 </html>
 ```
 
-<div align="center">
+<div>
   <img align="center" src="./github/head.png">
 </div>
+
+<br/>
 
 A tag head representa uma coleção de metadados para o documento onde não são exibidos no navegador. Metadados são, dados sobre os dados. E é utilizada para inserir informações do cabeçalho do documento, como título, links para css, links para favicons, links para fontes e outros metadados, como: Quem o escreveu, palavras-chave importantes que descrevem o documento etc.
 
@@ -88,10 +92,10 @@ A tag head representa uma coleção de metadados para o documento onde não são
     />
     <link rel="icon" type="image/png" sizes="16x16" href="./images/icon.png" />
     <title>Tags Html</title>
-  </head>
+</head>
 ```
 
-<div align="center">
+<div>
   <img align="center" src="./github/title.png">
 </div>
 
@@ -103,7 +107,7 @@ Utilizada para inserir o título da página web (Guia).
 <title>Escreva o Título</title>
 ```
 
-<div align="center">
+<div>
   <img align="center" src="./github/meta.png">
 </div>
 
@@ -116,7 +120,7 @@ Os metadados contendo informações do documento.
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 ```
 
-<div align="center">
+<div>
   <img align="center" src="./github/link.png">
 </div>
 
@@ -134,7 +138,7 @@ Inclusão de outros documentos.
 <link rel="icon" type="image/png" sizes="16x16" href="./images/icon.png" />
 ```
 
-<div align="center">
+<div>
   <img align="center" src="./github/body.png">
 </div>
 
@@ -160,7 +164,11 @@ Todo corpo do documento.
 
 **Obs:** Todas as tags a seguir, poderão ser utilizadas dentro do body.
 
-<h2 style="color: rgb(240, 58, 164)">Style</h2> <br/>
+<div>
+  <img align="center" src="./github/style.png">
+</div>
+
+<br/>
 
 Estilização do conteúdo.
 
@@ -168,15 +176,23 @@ Estilização do conteúdo.
 <h2 style="color: rgb(240, 58, 164)">Styles</h2>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Script</h2> <br/>
+<div>
+  <img align="center" src="./github/script.png">
+</div>
+
+<br/>
 
 Utilizado para colocar o contéudo de linguagem script.
 
 ```bash
-<script src="scripts.js"></script>>
+<script src="scripts.js"></script>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">P</h2> <br/>
+<div>
+  <img align="center" src="./github/p.png">
+</div>
+
+<br/>
 
 Parágrafo.
 
@@ -184,7 +200,11 @@ Parágrafo.
 <p>Escreva seu texto</p>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">A</h2> <br/>
+<div>
+  <img align="center" src="./github/a.png">
+</div>
+
+<br/>
 
 O elemento <-a-> ou também chamado de elemnto âncora, é utilizado para a criação de links, e, com o atributo **href** cria-se um hiperligação nas páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL. Existem outros atributos, mas estes são os mais utilizados.
 
@@ -203,7 +223,11 @@ O elemento <-a-> ou também chamado de elemnto âncora, é utilizado para a cria
 **target="\_blank"** – Utilizado para abrir uma nova aba; <br/>
 **Obs:** Utilize **rel="noreferrer noopener"**, juntamente com o **\_blank**, para evitar "exploit". Usar target="\_blank" sem rel="noreferrer" ou rel="noopener" torna o site vulnerável a window.opener. <br/>
 
-<h2 style="color: rgb(240, 58, 164)">Img</h2> <br/>
+<div>
+  <img align="center" src="./github/img.png">
+</div>
+
+<br/>
 
 Utilizada para inserir imagens.
 
@@ -224,7 +248,11 @@ Utilizada para inserir imagens.
     <li>PNG ICO</li>
 </ul>
 
-<h2 style="color: rgb(240, 58, 164)">Pre</h2> <br/>
+<div>
+  <img align="center" src="./github/pre.png">
+</div>
+
+<br/>
 
 É a tag utilizada para representar um texto pré-formatado. Um texto dentro desse elemento é exibido em uma fonte não proporcional da mesma maneira em que o texto original foi escrito no arquivo. Espaços em branco são mantidos no texto da mesma forma em que foi digitado.
 
@@ -236,9 +264,13 @@ body {
 </pre>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">H1</h2> <br/>
+<div>
+  <img align="center" src="./github/h1.png">
+</div>
 
-Refere-se ao cabeçalho, onde varia de h1 à h6, sendo h1 o maior font-size (tamanho da letra) e h6 o menor.
+<br/>
+
+Refere-se ao texto de cabeçalho, onde varia de h1 à h6, sendo h1 o maior font-size (tamanho da letra) e h6 o menor.
 
 ```bash
 <h1>Text</h1>
@@ -249,211 +281,546 @@ Refere-se ao cabeçalho, onde varia de h1 à h6, sendo h1 o maior font-size (tam
 <h6>Text</h6>
 ```
 
-<h3 style="color: aqua;">Estruturas</h3> <br/>
+<div align="center">
+  <img align="center" src="./github/estruturas.png">
+</div>
 
-<h2 style="color: rgb(240, 58, 164)">Main</h2> <br/>
+<br/>
+
+<div>
+  <img align="center" src="./github/main.png">
+</div>
+
+Conteúdo principal do body (corpo). Entende-se como conteúdo principal aquele relacionado diretamente com o tópico central da página ou com a funcionalidade central da aplicação.
+<br/>
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<main>
+  <div>
+
+  </div>
+</main>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Header</h2> <br/>
+<div>
+  <img align="center" src="./github/header.png">
+</div>
+
+Cabeçalho da página.
+
+<br/>
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<header>
+    <h1>Título da Página Principal</h1>
+    <img src="log.png" alt="logo">
+</header>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Section</h2> <br/>
+<div>
+  <img align="center" src="./github/section.png">
+</div>
+
+<br/>
+Refere-se a uma seção na página.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<section>
+  <h1>Cabeçalho</h1>
+  <p>Conteúdo</p>
+</section>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Article</h2> <br/>
+<div>
+  <img align="center" src="./github/article.png">
+</div>
+
+<br/>
+
+Refere-se a um artigo na página.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<article>
+  <h4>Um artigo realmente impressionante</h4>
+  <p>Texto do artigo.</p>
+</article>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Aside</h2> <br/>
+<div>
+  <img align="center" src="./github/aside.png">
+</div>
+<br/>
+
+Refere-se ao conteúdo lateral (ao lado), utilizado para: Definição de um glossário; avisos; biografia do autor; informações de perfil ou links de blogs relacionados.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<aside>
+  <p>Conteúdo relacionado a um article</p>
+</aside>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Nav</h2> <br/>
+<div>
+  <img align="center" src="./github/nav.png">
+</div>
+<br/>
+
+Refere-se a uma seção de uma página que aponta para outras páginas ou para outras áreas da página, ou seja, uma seção com links de navegação.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<nav>
+  <ul>
+    <li><a href="#">Página inicial</a></li>
+    <li><a href="#">Sobre</a></li>
+    <li><a href="#">Contato</a></li>
+  </ul>
+</nav>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Div</h2> <br/>
+<div>
+  <img align="center" src="./github/div.png">
+</div>
+<br/>
+
+Refere-se a um container genérico para conteúdo de fluxo, que não representa nada. Ele pode ser utilizado para agrupar elementos para fins de estilos (usando class ou id), ou porque eles compartilham valores de atributos, como lang. Ele deve ser utilizado somente quando não tiver outro elemento de semântica (como <article> ou <nav>). Resumindo, define uma divisão na página.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<div>
+  <p>Qualquer tipo de conteúdo</p>
+</div>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Footer</h2> <br/>
+<div>
+  <img align="center" src="./github/footer.png">
+</div>
+<br/>
+
+Refere-se ao rodapé da página. Um rodapé normalmente, contém informações sobre o autor da seção de dados, direitos autorais ou links para documentos relacionados.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<footer>
+  Informações de copyright
+</footer>
 ```
 
-<h3 style="color: aqua;">Formulários</h3> <br/>
+<div align="center">
+  <img align="center" src="./github/form.png">
+</div>
+<br/>
 
-<h2 style="color: rgb(240, 58, 164)">Form</h2> <br/>
+Refere-se a criação de um formulário.
+
+<div>
+  <img align="center" src="./github/formi.png">
+</div>
+<br/>
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<form>
+    <input id="name" type="text" name="name" placeholder="Name" />
+    <input id="email" type="email" name="email" placeholder="E-mail" />
+    <input id="phone" type="tel" name="phone" placeholder="Phone" />
+    <input type="submit" name="action" value="Download" />
+</form>
+
+<form action="" method="get">
+  <label for="GET-name">Name:</label>
+  <input id="GET-name" type="text" name="name">
+  <input type="submit" value="Save">
+</form>
+
+<form action="" method="post">
+  <label for="POST-name">Name:</label>
+  <input id="POST-name" type="text" name="name">
+  <input type="submit" value="Save">
+</form>
+
+<form action="" method="post">
+  <fieldset>
+    <legend>Title</legend>
+    <input type="radio" name="radio" id="radio"> <label for="radio">Click me</label>
+  </fieldset>
+</form>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Input</h2> <br/>
+<div>
+  <img align="center" src="./github/input.png">
+</div>
+<br/>
+
+Refere-se a caixa de entrada de dados.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<input id="name" type="text" name="name" placeholder="Name" />
+<input id="email" type="email" name="email" placeholder="E-mail" />
+<input id="phone" type="tel" name="phone" placeholder="Phone" />
+<input type="submit" name="action" value="Download" />
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Textarea</h2> <br/>
+<div>
+  <img align="center" src="./github/textarea.png">
+</div>
+<br/>
+
+Refere-se a um campo de texto.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<textarea name="textarea"
+   rows="5" cols="30"
+   minlength="10" maxlength="20">Conteúdo</textarea>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Select</h2> <br/>
+<div>
+  <img align="center" src="./github/select.png">
+</div>
+<br/>
+
+Refere-se a uma seleção de opções.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<select name="select">
+  <option value="valor1" selected>Valor 1</option>
+  <option value="valor2" >Valor 2</option>
+  <option value="valor3">Valor 3</option>
+</select>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Option</h2> <br/>
+<div>
+  <img align="center" src="./github/option.png">
+</div>
+<br/>
+
+Refere-se a definição de uma opção.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<option value="valor1" selected>Valor 1</option>
+<option value="valor2" >Valor 2</option>
+<option value="valor3">Valor 3</option>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Label</h2> <br/>
+<div>
+  <img align="center" src="./github/label.png">
+</div>
+<br/>
+
+Refere-se a legenda dos campos.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<label for="name">Name:</label>
+<input id="name" type="text" name="name">
 ```
 
-<h3 style="color: aqua;">Tabelas</h3> <br/>
+<div align="center">
+  <img align="center" src="./github/tabelas.png">
+</div>
+<br/>
 
-<h2 style="color: rgb(240, 58, 164)">Table</h2> <br/>
+<div>
+  <img align="center" src="./github/table.png">
+</div>
+<br/>
+Refere-se a criação de uma tabela.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<table>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>4</td>
+  </tr>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Header content 1</th>
+      <th>Header content 2</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td>Footer content 1</td>
+      <td>Footer content 2</td>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <td>Body content 1</td>
+      <td>Body content 2</td>
+    </tr>
+  </tbody>
+</table>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Caption</h2> <br/>
+<div>
+  <img align="center" src="./github/caption.png">
+</div>
+<br/>
+
+Representa o título/legenda de uma tabela.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<table>
+  <caption>Exemplo de título</caption>
+  <tr>
+    <th>Login</th>
+    <th>Email</th>
+  </tr>
+</table>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Tr</h2> <br/>
+<div>
+  <img align="center" src="./github/tr.png">
+</div>
+<br/>
+
+Refere-se a linha da tabela.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<tr>
+  <td>1</td>
+  <td>2</td>
+</tr>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Th</h2> <br/>
+<div>
+  <img align="center" src="./github/th.png">
+</div>
+<br/>
+
+Refere-se a célula de cabeçalho da tabela.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<tr>
+  <th>Login</th>
+  <th>Email</th>
+</tr>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">td</h2> <br/>
+<div>
+  <img align="center" src="./github/td.png">
+</div>
+<br/>
+
+Refere-se a célula de dados da tabela.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<tr>
+  <td>1</td>
+  <td>2</td>
+</tr>
 ```
 
-<h3 style="color: aqua;">Listas</h3> <br/>
+<div align="center">
+  <img align="center" src="./github/listas.png">
+</div>
 
-<h2 style="color: rgb(240, 58, 164)">Ol</h2> <br/>
+<br/>
+
+<div>
+  <img align="center" src="./github/ol.png">
+</div>
+<br/>
+
+Refere-se a uma lista ordenada.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<ol>
+  <li>primeiro item</li>
+  <li>segundo item</li>
+  <li>terceiro item</li>
+</ol>
+
+1 - primeiro item
+2 - segundo item
+3 - terceiro item
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Ul</h2> <br/>
+<div>
+  <img align="center" src="./github/ul.png">
+</div>
+<br/>
+
+Refere-se a uma lista não ordenada.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<ul>
+  <li>primeiro item</li>
+  <li>segundo item</li>
+  <li>terceiro item</li>
+</ul>
+
+- primeiro item
+- segundo item
+- terceiro item
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Li</h2> <br/>
+<div>
+  <img align="center" src="./github/li.png">
+</div>
+<br/>
+
+Refere-se a um item da lista.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<li>primeiro item</li>
+<li>segundo item</li>
+<li>terceiro item</li>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Menu</h2> <br/>
+<div>
+  <img align="center" src="./github/menu.png">
+</div>
+<br/>
+
+Refere-se ao menu com a lista de itens.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<menu type="toolbar">
+  <li>
+    <button type="menu" menu="file-menu">File</button>
+    <menu type="context" id="file-menu">
+      <menuitem label="New..." onclick="newFile()">
+      <menuitem label="Save..." onclick="saveFile()">
+    </menu>
+  </li>
+  <li>
+    <button type="menu" menu="edit-menu">Edit</button>
+    <menu type="context" id="edit-menu">
+      <menuitem label="Cut..." onclick="cutEdit()">
+      <menuitem label="Copy..." onclick="copyEdit()">
+      <menuitem label="Paste..." onclick="pasteEdit()">
+    </menu>
+  </li>
+</menu>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Dir</h2> <br/>
+<div>
+  <img align="center" src="./github/dir.png">
+</div>
+<br/>
+
+Refere-se a a um elemento obsoleto, e é usado como um contêiner para um diretório de arquivos e/ou pastas, potencialmente com estilos e ícones aplicados pelo user agent. Não use este elemento obsoleto; em vez disso, você deve usar a lista não ordenada para listas, incluindo listas de arquivos. <br/>
+
+<div>
+  <img align="center" src="./github/dl.png">
+</div>
+<br/>
+
+Refere-se a uma lista de descrição.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<dl>
+  <dt>Firefox</dt>
+  <dd>A free, open source, cross-platform, graphical web browser
+      developed by the Mozilla Corporation and hundreds of volunteers.</dd>
+</dl>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Dl</h2> <br/>
+<div>
+  <img align="center" src="./github/dt.png">
+</div>
+<br/>
+
+Refere-se ao termo a ser descrito.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<dt>Firefox</dt>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Dt</h2> <br/>
+<div>
+  <img align="center" src="./github/dd.png">
+</div>
+<br/>
+
+Refere-se a descrição, ou seja, o conteúdo da lista.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<dd>A free, open source, cross-platform, graphical web browser
+      developed by the Mozilla Corporation and hundreds of volunteers.
+</dd>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Dd</h2> <br/>
+<div align="center">
+  <img align="center" src="./github/format.png">
+</div>
+
+<br/>
+
+<div>
+  <img align="center" src="./github/b.png">
+</div>
+<br/>
+
+Refere-se ao texto em **negrito**.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<b>Escreva seu texto</b>
 ```
 
-<h3 style="color: aqua;">Formatação</h3> <br/>
+<div>
+  <img align="center" src="./github/i.png">
+</div>
+<br/>
 
-<h2 style="color: rgb(240, 58, 164)">B</h2> <br/>
+Refere-se ao texto em itálico.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<i>Excreva seu texto</i>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">I</h2> <br/>
+<div>
+  <img align="center" src="./github/u.png">
+</div>
+
+<br/>
+
+Refere-se ao texto sublinhado.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<u>Escreva seu texto</u>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">U</h2> <br/>
+<div>
+  <img align="center" src="./github/strong.png">
+</div>
+
+<br/>
+
+Refere-se ao texto em **negrito**.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+ <strong>Escreva seu texto</strong>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Strong</h2> <br/>
+<div>
+  <img align="center" src="./github/em.png">
+</div>
+<br/>
+
+Refere-se ao texto em itálico.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<em>Escreva seu texto</em>
 ```
 
-<h2 style="color: rgb(240, 58, 164)">Em</h2> <br/>
+<div>
+  <img align="center" src="./github/br.png">
+</div>
+
+<br/>
+
+Refere-se a quebra de linha.
 
 ```bash
-$ gh repo fork DeboraZandonai/TagsHtml
+<br/>
 ```
 
 <br/>
 
-<h2>💡 Deseja contribuir com esse projeto?</h2> <br/>
+<h2>💡 Deseja contribuir com esse projeto?</h2>
 
 ### Faça um fork utilizando a linha de comando oficial do GitHub
 
