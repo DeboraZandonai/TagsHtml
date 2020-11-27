@@ -25,9 +25,11 @@
 
 <br/>
 
-<div align="center">
+<div>
   <img align="center" src="./github/coment.png">
 </div>
+
+<br/>
 
 Obs: Ele não será exibido em tela.
 
@@ -35,7 +37,7 @@ Obs: Ele não será exibido em tela.
 <!-- Escreva seu comentário -->
 ```
 
-<div align="center">
+<div>
   <img align="center" src="./github/doctype.png">
 </div>
 
@@ -55,7 +57,7 @@ Por exemplo, Html:5
 </html>
 ```
 
-<div align="center">
+<div>
   <img align="center" src="./github/html.png">
 </div>
 
