@@ -30,14 +30,14 @@
 >
 > *[Tags](#tags)*\
 > *[Estruturas](#estruturas)*\
-> *[Formulários](#formi)*\
+> *[Formulários](#forms)*\
 > *[Tabelas](#tabelas)*\
 > *[Listas](#listas)*\
 > *[Formatação](#format)*
 >
 > <h4>💡 Pull Requests</h4>
 > 
-> *[Deseja contribuir com esse projeto? ](#contribuir)*\
+> *[Deseja contribuir com esse projeto? ](#contribuir)*
 </details>
 
 <hr>
@@ -425,14 +425,14 @@ Refere-se ao rodapé da página. Um rodapé normalmente, contém informações s
 </footer>
 ```
 
-<div align="center">
+<div align="center" id="forms">
   <img align="center" src="./github/form.png">
 </div>
 <br/>
 
 Refere-se a criação de um formulário.
 
-<div id="formi">
+<div>
   <img align="center" src="./github/formi.png">
 </div>
 <br/>
