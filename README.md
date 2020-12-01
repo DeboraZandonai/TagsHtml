@@ -334,6 +334,7 @@ Cabeçalho da página.
 </div>
 
 <br/>
+
 Refere-se a uma seção na página.
 
 ```bash
@@ -393,7 +394,7 @@ Refere-se a uma seção de uma página que aponta para outras páginas ou para o
 </div>
 <br/>
 
-Refere-se a um container genérico para conteúdo de fluxo, que não representa nada. Ele pode ser utilizado para agrupar elementos para fins de estilos (usando class ou id), ou porque eles compartilham valores de atributos, como lang. Ele deve ser utilizado somente quando não tiver outro elemento de semântica (como <article> ou <nav>). Resumindo, define uma divisão na página.
+Refere-se a um container genérico para conteúdo de fluxo, que não representa nada. Ele pode ser utilizado para agrupar elementos para fins de estilos (usando class ou id), ou porque eles compartilham valores de atributos, como lang. Ele deve ser utilizado somente quando não tiver outro elemento de semântica (como **article** ou **nav**). Resumindo, define uma divisão na página.
 
 ```bash
 <div>
@@ -428,10 +429,10 @@ Refere-se a criação de um formulário.
 
 ```bash
 <form>
-    <input id="name" type="text" name="name" placeholder="Name" />
-    <input id="email" type="email" name="email" placeholder="E-mail" />
-    <input id="phone" type="tel" name="phone" placeholder="Phone" />
-    <input type="submit" name="action" value="Download" />
+  <input id="name" type="text" name="name" placeholder="Name" />
+  <input id="email" type="email" name="email" placeholder="E-mail" />
+  <input id="phone" type="tel" name="phone" placeholder="Phone" />
+  <input type="submit" name="action" value="Download" />
 </form>
 
 <form action="" method="get">
@@ -453,6 +454,13 @@ Refere-se a criação de um formulário.
   </fieldset>
 </form>
 ```
+
+**Resultado**
+
+<div>
+  <img align="center" src="./github/resultForm.png">
+</div>
+<br/>
 
 <div>
   <img align="center" src="./github/input.png">
@@ -496,6 +504,42 @@ Refere-se a uma seleção de opções.
 </select>
 ```
 
+**Resultado**
+
+<div>
+  <img align="center" src="./github/resultSelect.png">
+</div>
+<br/>
+
+<div>
+  <img align="center" src="./github/datalist.png">
+</div>
+<br/>
+
+Refere-se a um conjunto de elementos **option** que representam as opções possíveis para o valor de outros controles.
+
+```bash
+<input list="browsers" />
+  <datalist id="browsers">
+      <option value="Chrome"></option>
+      <option value="Firefox"></option>
+      <option value="Internet Explorer"></option>
+      <option value="Opera"></option>
+      <option value="Safari"></option>
+  </datalist>
+```
+
+### Dom
+
+Esse elemento implementa a interface **HTMLDataListElement**.
+
+**Resultado**
+
+<div>
+  <img align="center" src="./github/resultDatalist.png">
+</div>
+<br/>
+
 <div>
   <img align="center" src="./github/option.png">
 </div>
@@ -508,6 +552,52 @@ Refere-se a definição de uma opção.
 <option value="valor2" >Valor 2</option>
 <option value="valor3">Valor 3</option>
 ```
+
+<div>
+  <img align="center" src="./github/optgroup.png">
+</div>
+<br/>
+
+Refere-se a um agrupamento de opções dentro do elemento **select**.
+
+```bash
+<select>
+  <optgroup label="Grupo 1">
+    <option>Opção 1.1</option>
+  </optgroup>
+  <optgroup label="Grupo 2">
+    <option>Opção 2.1</option>
+    <option>Opção 2.2</option>
+  </optgroup>
+  <optgroup label="Grupo 3" disabled>
+    <option>Opção 3.1</option>
+    <option>Opção 3.2</option>
+    <option>Opção 3.3</option>
+  </optgroup>
+</select>
+```
+
+### Atributos
+
+**disabled**:
+Se este atributo booleano for definido, nenhum dos itens neste optgroup poderá ser selecionado. Muitos navegadores marcam como cinza e não permitem que o elemento receba nenhum evento de navegação, como cliques do mouse ou foco. <br/>
+**label**:
+É o nome do optgroup,e o que os navegadores irão exibir como rótulo. Este atributo é obrigatório se o elemento for usado.
+
+<br/>
+
+### Dom
+
+Esse elemento implementa a interface **HTMLOptGroupElement**.
+
+<br/>
+
+**Resultado**
+
+<div>
+  <img align="center" src="./github/resultOpt.png">
+</div>
+<br/>
 
 <div>
   <img align="center" src="./github/label.png">

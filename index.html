@@ -50,11 +50,35 @@
         <option value="valor3">Valor 3</option>
       </select>
 
+      <select>
+        <optgroup label="Grupo 1">
+          <option>Opção 1.1</option>
+        </optgroup>
+        <optgroup label="Grupo 2">
+          <option>Opção 2.1</option>
+          <option>Opção 2.2</option>
+        </optgroup>
+        <optgroup label="Grupo 3" disabled>
+          <option>Opção 3.1</option>
+          <option>Opção 3.2</option>
+          <option>Opção 3.3</option>
+        </optgroup>
+      </select>
+
       <b>Escreva seu texto</b>
       <i>Excreva seu texto</i>
       <u>Escreva seu texto</u>
       <strong>Escreva seu texto</strong>
       <em>Escreva seu texto</em>
+
+      <input list="browsers" />
+      <datalist id="browsers">
+        <option value="Chrome"></option>
+        <option value="Firefox"></option>
+        <option value="Internet Explorer"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+      </datalist>
 
       <h1></h1>
       <h2></h2>
@@ -65,5 +89,56 @@
     </section>
     <footer></footer>
     <script src="scripts.js"></script>
+    <div style="display: flex; flex-direction: column">
+      <form style="display: flex; flex-direction: column; margin-bottom: 30px">
+        <input
+          id="name"
+          type="text"
+          name="name"
+          placeholder="Name"
+          style="width: 200px"
+        />
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="E-mail"
+          style="width: 200px"
+        />
+        <input
+          id="phone"
+          type="tel"
+          name="phone"
+          placeholder="Phone"
+          style="width: 200px"
+        />
+        <input
+          type="submit"
+          name="action"
+          value="Download"
+          style="width: 208px"
+        />
+      </form>
+
+      <form action="" method="get">
+        <label for="GET-name">Name:</label>
+        <input id="GET-name" type="text" name="name" />
+        <input type="submit" value="Save" />
+      </form>
+
+      <form action="" method="post">
+        <label for="POST-name">Name:</label>
+        <input id="POST-name" type="text" name="name" />
+        <input type="submit" value="Save" />
+      </form>
+
+      <form action="" method="post" style="width: 200px; margin-top: 30px">
+        <fieldset>
+          <legend>Title</legend>
+          <input type="radio" name="radio" id="radio" />
+          <label for="radio">Click me</label>
+        </fieldset>
+      </form>
+    </div>
   </body>
 </html>
