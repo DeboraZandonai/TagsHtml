@@ -2,8 +2,18 @@
 
 ![Badge](/github/tag.png)
 
+## 🧭 Índice
+
+- [Atributos](#atributos)
+- [Tags](#tags)
+- [Estruturas](#estruturas)
+- [Formulários](#form)
+- [Tabelas](#tabelas)
+- [Listas](#listas)
+- [Formatação](#format)
+
 <div align="center">
-  <img align="center" src="./github/atributos.png">
+  <img align="center" id="atributos" src="./github/atributos.png">
 </div>
 
 <h4>Os atributos são usados para personalizar as tags, modificando sua estrutura ou funcionalidade. Portanto, os atributos são utilizados para atribuir uma classe ou id a um elemento. Esses são os principais, porém existe vários.</h4> <br/>
@@ -19,7 +29,7 @@
 **width=”…”** – Define uma largura para o elemento;<br/><br/>
 **height=”…”** – Define uma altura para o elemento.<br/> <br/>
 
-<div align="center">
+<div align="center" id="tags">
   <img align="center" src="./github/tags.png">
 </div>
 
@@ -40,6 +50,7 @@ Obs: Ele não será exibido em tela.
 <div>
   <img align="center" src="./github/doctype.png">
 </div>
+<br/>
 
 Utilizada para iniciar e indicar a versão do Html. <br/>
 Por exemplo, Html:5
@@ -282,7 +293,7 @@ Refere-se ao texto de cabeçalho, onde varia de h1 à h6, sendo h1 o maior font-
 ```
 
 <div align="center">
-  <img align="center" src="./github/estruturas.png">
+  <img align="center" id="estruturas" src="./github/estruturas.png">
 </div>
 
 <br/>
@@ -291,8 +302,9 @@ Refere-se ao texto de cabeçalho, onde varia de h1 à h6, sendo h1 o maior font-
   <img align="center" src="./github/main.png">
 </div>
 
-Conteúdo principal do body (corpo). Entende-se como conteúdo principal aquele relacionado diretamente com o tópico central da página ou com a funcionalidade central da aplicação.
 <br/>
+
+Conteúdo principal do body (corpo). Entende-se como conteúdo principal aquele relacionado diretamente com o tópico central da página ou com a funcionalidade central da aplicação.
 
 ```bash
 <main>
@@ -306,9 +318,9 @@ Conteúdo principal do body (corpo). Entende-se como conteúdo principal aquele 
   <img align="center" src="./github/header.png">
 </div>
 
-Cabeçalho da página.
-
 <br/>
+
+Cabeçalho da página.
 
 ```bash
 <header>
@@ -403,16 +415,16 @@ Refere-se ao rodapé da página. Um rodapé normalmente, contém informações s
 ```
 
 <div align="center">
-  <img align="center" src="./github/form.png">
+  <img align="center" src="./github/form.png" id="form">
 </div>
 <br/>
-
-Refere-se a criação de um formulário.
 
 <div>
   <img align="center" src="./github/formi.png">
 </div>
 <br/>
+
+Refere-se a criação de um formulário.
 
 ```bash
 <form>
@@ -510,7 +522,7 @@ Refere-se a legenda dos campos.
 ```
 
 <div align="center">
-  <img align="center" src="./github/tabelas.png">
+  <img align="center" src="./github/tabelas.png" id="tabelas">
 </div>
 <br/>
 
@@ -614,7 +626,7 @@ Refere-se a célula de dados da tabela.
 ```
 
 <div align="center">
-  <img align="center" src="./github/listas.png">
+  <img align="center" src="./github/listas.png" id="listas">
 </div>
 
 <br/>
@@ -744,7 +756,7 @@ Refere-se a descrição, ou seja, o conteúdo da lista.
 ```
 
 <div align="center">
-  <img align="center" src="./github/format.png">
+  <img align="center" src="./github/format.png" id="format">
 </div>
 
 <br/>
