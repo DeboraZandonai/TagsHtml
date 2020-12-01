@@ -21,7 +21,7 @@
 
 <details>
 <summary>
-  <h2>🔍 Sumário</h2>
+  <strong>🔍 Sumário</strong>
 </summary>
   
 > <h4>📚 Tópicos</h4>
