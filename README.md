@@ -19,6 +19,8 @@
 **width=”…”** – Define uma largura para o elemento;<br/><br/>
 **height=”…”** – Define uma altura para o elemento.<br/> <br/>
 
+<hr>
+
 <details>
 <summary>
   <strong>🔍 Sumário</strong>
@@ -35,8 +37,10 @@
 >
 > <h4>💡 Pull Requests</h4>
 > 
-> *[Deseja contribuir com esse projeto? ](#contribuir)*
+> *[Deseja contribuir com esse projeto? ](#contribuir)*\
 </details>
+
+<hr>
 
 <div align="center" id="tags">
   <img align="center" src="./github/tags.png">
