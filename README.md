@@ -19,7 +19,26 @@
 **width=”…”** – Define uma largura para o elemento;<br/><br/>
 **height=”…”** – Define uma altura para o elemento.<br/> <br/>
 
-<div align="center">
+<details>
+<summary>
+  <h2>🔍 Sumário</h2>
+</summary>
+  
+> <h4>📚 Tópicos</h4>
+>
+> *[Tags](#tags)*\
+> *[Estruturas](#estruturas)*\
+> *[Formulários](#formi)*\
+> *[Tabelas](#tabelas)*\
+> *[Listas](#listas)*\
+> *[Formatação](#format)*
+>
+> <h4>💡 Pull Requests</h4>
+> 
+> *[Deseja contribuir com esse projeto? ](#contribuir)*
+</details>
+
+<div align="center" id="tags">
   <img align="center" src="./github/tags.png">
 </div>
 
@@ -281,7 +300,7 @@ Refere-se ao texto de cabeçalho, onde varia de h1 à h6, sendo h1 o maior font-
 <h6>Text</h6>
 ```
 
-<div align="center">
+<div align="center" id="estruturas">
   <img align="center" src="./github/estruturas.png">
 </div>
 
@@ -409,7 +428,7 @@ Refere-se ao rodapé da página. Um rodapé normalmente, contém informações s
 
 Refere-se a criação de um formulário.
 
-<div>
+<div id="formi">
   <img align="center" src="./github/formi.png">
 </div>
 <br/>
@@ -509,7 +528,7 @@ Refere-se a legenda dos campos.
 <input id="name" type="text" name="name">
 ```
 
-<div align="center">
+<div align="center" id="tabelas">
   <img align="center" src="./github/tabelas.png">
 </div>
 <br/>
@@ -613,7 +632,7 @@ Refere-se a célula de dados da tabela.
 </tr>
 ```
 
-<div align="center">
+<div align="center" id="listas">
   <img align="center" src="./github/listas.png">
 </div>
 
@@ -743,7 +762,7 @@ Refere-se a descrição, ou seja, o conteúdo da lista.
 </dd>
 ```
 
-<div align="center">
+<div align="center" id="format">
   <img align="center" src="./github/format.png">
 </div>
 
@@ -820,7 +839,7 @@ Refere-se a quebra de linha.
 
 <br/>
 
-<h2>💡 Deseja contribuir com esse projeto?</h2>
+<h2 id="contribuir">💡 Deseja contribuir com esse projeto?</h2>
 
 ### Faça um fork utilizando a linha de comando oficial do GitHub
 
