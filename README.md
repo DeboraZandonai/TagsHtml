@@ -584,13 +584,9 @@ Se este atributo booleano for definido, nenhum dos itens neste optgroup poderá 
 **label**:
 É o nome do optgroup,e o que os navegadores irão exibir como rótulo. Este atributo é obrigatório se o elemento for usado.
 
-<br/>
-
 ### Dom
 
 Esse elemento implementa a interface **HTMLOptGroupElement**.
-
-<br/>
 
 **Resultado**
 
@@ -598,6 +594,36 @@ Esse elemento implementa a interface **HTMLOptGroupElement**.
   <img align="center" src="./github/resultOpt.png">
 </div>
 <br/>
+
+<div>
+  <img align="center" src="./github/fieldset.png">
+</div>
+<br/>
+
+É utilizado para agrupar elementos, assim como **labels**, dentro de um formulário web.
+
+```bash
+<form action="test" method="post">
+  <fieldset>
+    <legend>Title</legend>
+    <input type="radio" id="radio"> <label for="radio">Click me</label>
+  </fieldset>
+</form>
+```
+
+### Atributos
+
+**disabled**:
+Se este atributo Booleano estiver definido, os controles de formulário que são seus descendentes, exceto os descendentes de seu primeiro elemento opcional **legend**, estarão desativados. Eles não receberão qualquer evento de navegação, como clique do mouse ou relacionado com focus. Frequentemente os navegadores mostram tais controles em cinza. <br/>
+**form**:
+Este atributo tem o valor do atributo id do elemento **form** com que se relaciona. Seu valor padrão é o **id** do elemento form mais próximo.<br/>
+**name**:
+O nome associado com o grupo.<br/>
+**Obs**: O label para o fieldset é dado pelo primeiro elemento **legend** que é filho do fieldset.
+
+### Dom
+
+Esse elemento implementa a interface **HTMLFieldSetElement**.
 
 <div>
   <img align="center" src="./github/label.png">
