@@ -984,6 +984,6 @@ Depois que a sua pull request for aceita você pode deletar a sua branch.
 
 ## 📝 Licença
 
-Este projeto encontra-se sob a licença **MIT**. Para mais informações, acesse o arquivo **LICENSE**.
+This project is under the **MIT** license. For more information, access the file [LICENSE](https://github.com/DeboraZandonai/TagsHtml/blob/master/LICENSE).
 
 <h4 align=center>Made with ❤️ by <a href="https://www.linkedin.com/in/debora-zandonai-4ab092195/">Debora Zandonai</a></h4>
